@@ -1,0 +1,5 @@
+ naufal=read.delim("clipboard")
+> View(naufal)
+> str(naufal)
+ mean(naufal$Pendapatan)
+> t.test(naufal$Pendapatan, mu=14500)
